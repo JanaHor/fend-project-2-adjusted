@@ -1,0 +1,154 @@
+/*--- Global Styles ---*/
+
+
+ body,
+ html {
+     margin: 0;
+     padding: 0;
+     width: 100%;
+     height: 100%;
+}
+
+ body {
+     font-family: "Josefin Sans", sans-serif;
+     font-size: 16px;
+     color: #6f4e45;
+     background-color: #dbd3c8;
+}
+
+ h1,
+ h2,
+ h3 {
+     margin: 0;
+     color: #dbd3c8;
+}
+
+ header,
+ main,
+ footer,
+ section,
+ article,
+ div {
+     box-sizing: border-box;
+}
+
+ hr {
+     display: flex;
+     border: 2px solid #e3387f;
+}
+
+
+/*--- Header ---*/
+
+
+ .header-area {
+     width: 100%;
+	 display: flex;
+	 justify-content: space-between;
+}
+
+ .header-logo {
+	 margin: 0.5em 0 0 1em;
+     border-radius: 50%;
+     border: 2px solid #4a7c4f;
+}
+
+ .header-text {
+     margin-right: 1em;
+	 width: 75%;
+     text-align: right;
+}
+
+ .header-title {
+     font-size: 1.5em;
+     margin: 0.5em 0 0.5em 0;
+     color: #6f4e45;
+}
+
+ .header-subtitle {
+     font-weight: lighter;
+     font-size: 1em;
+     color: #4a7c4f;
+}
+
+
+/*--- Main ---*/
+
+
+ .content {
+     width: 100%;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+ .content-photo {
+     width: 100%;
+     position: relative;
+}
+
+ .content-description {
+     background-color: #dbd3c8;
+     bottom: 0;
+     width: 100%;
+     position: relative;
+     padding: 1em;
+     text-align: justify;
+     border-bottom: 1px solid #e3387f;
+}
+
+
+/*--- Projects area ---*/
+
+
+ .projects {
+     width: 100%;
+     text-align: center;
+     margin: 1em 0 1em 0;
+	 padding: 0.5em 0 0.5em 0;
+     background-color: #4a7c4f;
+}
+
+ .project-samples {
+     box-sizing: border-box;
+     margin: 1em;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+}
+
+ .project-samples-item {
+	 margin: 0.5em;
+}
+
+ .project-thumbnail,
+ .project-thumbnail-next {
+     width: 80px;
+     height: 70px;
+     float: top;
+     border: 1px solid #dbd3c8;
+     border-radius: 4px;
+     padding: 5px;
+}
+
+ .project-thumbnail:hover {
+     box-shadow: 0 0 2px 1px #e3387f;
+}
+
+ .project-title {
+     font-weight: bolder;
+     color: #dbd3c8;
+     margin: 0.5em 0 0.5em 0;
+}
+
+
+/*--- Footer ---*/
+
+
+ footer {
+     border-top: 1px solid #e3387f;
+     font-size: 0.75em;
+     text-align: right;
+     padding: 1em;
+     width: 100%;
+}
+ 

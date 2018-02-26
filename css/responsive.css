@@ -1,0 +1,56 @@
+/*--- Media Queries ---*/
+
+
+ @media screen and (max-width: 359px) {
+     .header-logo {
+         height: 55px;
+    }
+	
+     .header-title {
+         font-size: 1.25em;
+		 margin: 0.75em 0 0.75em 0;
+    }
+	
+	 .header-subtitle {
+         font-size: 0.75em;
+    }
+	
+     .project-title {
+         font-weight: lighter;
+    }
+}
+
+ @media screen and (min-width: 360px) {
+     .header-logo {
+         height: 60px;
+    }
+	
+     .header-title {
+         font-size: 1.5em;
+    }
+	
+     .project-title {
+         font-weight: bolder;
+    }
+}
+
+ @media screen and (min-width: 768px) {
+     .header-logo {
+         height: 80px;
+    }
+	
+     .header-title {
+         font-size: 2em;
+    }
+}
+
+ @media screen and (min-width: 900px) {
+     header,
+	 main,
+	 footer {
+         width: 900px;
+         margin-left: auto;
+         margin-right: auto;
+    }
+}
+ 
